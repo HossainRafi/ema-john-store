@@ -19,7 +19,6 @@ function App() {
         <Route path="/shop" element={<Shop></Shop>}></Route>
         <Route path="/orders" element={<Orders></Orders>}></Route>
 
-
         <Route
           path="/inventory"
           element={
@@ -28,7 +27,6 @@ function App() {
             </RequireAuth>
           }
         ></Route>
-
 
         <Route
           path="/shipment"
@@ -39,7 +37,6 @@ function App() {
           }
         ></Route>
 
-        
         <Route path="/about" element={<About></About>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
