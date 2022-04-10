@@ -43,6 +43,7 @@
   background-color: #ffd058;
   font-weight: 600;
   cursor: pointer;
+  margin-bottom: 25px;
 }
 .form-submit:hover {
   background-color: #fbbc1e;
